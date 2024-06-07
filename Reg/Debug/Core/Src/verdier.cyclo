@@ -1,0 +1,5 @@
+verdier.c:23:6:oppstartsverdier	1
+verdier.c:271:6:reset_pid_values	1
+verdier.c:277:6:reset_lqr_values	1
+verdier.c:286:6:reset_smc_values	1
+verdier.c:293:6:oppdater_parameter	72

@@ -1,0 +1,5 @@
+../Core/Src/verdier.c:23:6:oppstartsverdier	512	static
+../Core/Src/verdier.c:274:6:reset_pid_values	0	static
+../Core/Src/verdier.c:280:6:reset_lqr_values	0	static
+../Core/Src/verdier.c:289:6:reset_smc_values	0	static
+../Core/Src/verdier.c:296:6:oppdater_parameter	24	static

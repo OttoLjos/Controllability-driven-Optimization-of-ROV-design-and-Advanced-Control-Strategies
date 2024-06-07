@@ -1,0 +1,7 @@
+../Core/Src/pid.c:31:6:stamp_regulator	16	static
+../Core/Src/pid.c:63:6:rull_regulator	16	static
+../Core/Src/pid.c:96:6:hiv_regulator	8	static
+../Core/Src/pid.c:127:6:gir_regulator	8	static
+../Core/Src/pid.c:158:7:pid	0	static
+../Core/Src/pid.c:178:7:smc	72	static
+../Core/Src/pid.c:202:6:lqr	96	static

@@ -1,0 +1,7 @@
+pid.c:31:6:stamp_regulator	5
+pid.c:63:6:rull_regulator	5
+pid.c:96:6:hiv_regulator	5
+pid.c:127:6:gir_regulator	5
+pid.c:158:7:pid	5
+pid.c:178:7:smc	3
+pid.c:198:6:lqr	3

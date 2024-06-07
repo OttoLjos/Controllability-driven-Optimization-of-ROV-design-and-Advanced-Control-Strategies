@@ -1,0 +1,3 @@
+../Core/Src/matrix_operations.c:13:8:create_matrix_from_array	40	static
+../Core/Src/matrix_operations.c:44:6:assign_matrix_data	32	static
+../Core/Src/matrix_operations.c:85:6:free_matrix	8	static
