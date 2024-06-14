@@ -12,7 +12,7 @@ ROV = initializeModelMatrices(m, I, COB,dim,0);
 v_dot = calcAcceleration_linval(ROV.M,ROV.C,ROV.D,ROV.G);
 n_dot = calcNED_linval();
 
-v_init = [3 0 0 0 0 0];
+v_init = [1 0 0 0 0 0];
 eta_init = [0 0 0 0 0 0];
 F_diff = [20 0 0 0 0 0]';
 
@@ -30,7 +30,7 @@ solutions = solve(eqn,Tau);
 
 F = [double(solutions.tau1); double(solutions.tau2); double(solutions.tau3); double(solutions.tau4); double(solutions.tau5); double(solutions.tau6)];
 
-u_ulin = (ROV.T'/(ROV.T*ROV.T'))*F;
+u = (ROV.T'/(ROV.T*ROV.T'))*F;
 u_diff = (ROV.T'/(ROV.T*ROV.T'))*(F_diff);
 
 function linear_model = linearize_ROV(ROV_parameters, Velocity, Position, Reduced)
